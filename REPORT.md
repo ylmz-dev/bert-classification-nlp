@@ -1,6 +1,9 @@
+### A Binary Classification Challenge on WoS Academic Articles
+
 Firstly, I have started to examine the data to catch some relations and differences. Main problem was chemistry and material science were so similar domains and even an advanced RNN model LSTM with pre-trained word embeddings would not be enough to obtain goot performance results. To check my guess, I have implemented a Bidirectional LSTM model and performance results were terrible as I had expected. To use as a main text I have combined title and abstract columns of dataset.
 
 ### Performance results of Bidirectional LSTM
+
 | Class | Precision | Recall | F1-score  |Support
 | ------ | ------ | ------ | ------ |------ |
 | 0 | 0.47 | 0.46 | 0.47 |740
@@ -38,15 +41,18 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 | 1 |  0.73  |  0.76 |0.75 |759
 
 ### Best Model Detailed Performance Analysis
+
  XLNet was the best model among the all models, so let me compare and add other performance metrics and ROC curve as well.
  
 #### Confusion Matrix
+
 | Class | 0 | 1 | 
 | ------ | ------ | ------ | 
 | 0 | 571 | 169 | 
 | 1 |  200 |  559 |
 
 #### Performance
+
 | Class | Precision | Recall | F1-score  |Support
 | ------ | ------ | ------ | ------ |------ |
 | 0 | 0.73  | 0.78  | 0.75  |740
@@ -55,6 +61,7 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 ![alt text](https://github.com/umitylmz/fixy/blob/master/IMG_2654.jpg)
 
 ### Comparison on Test dataset
+
 | Model/Metric | Accuracy | F1-score |
 | ------ | ------ | ------ |
 | XLNet Fine-tuned | 0.754  | 0.752  |
@@ -71,5 +78,14 @@ Also, with scraping more data using different resources online about the domains
 In addition, I would like to focus more on feature engineering, I have tried something but it did not affect the performance well however I believe that there are some ways that I could not see right now. It is not an excuse however nowadays, while I was working in a company, also I am focusing on my classes since I will be graduating from my university in one month. I believe, If I had more time I could succeed more.
 I would like to tune the hyper-parameters of the model using an advanced technique. My computational power was not enough since I was using a free GPU on Google Colab. Since it is free it was limiting the usage time and even though I was using 3 accounts the same, I had so many problems during the training phases. I have used Google Colab to implement models since they are very complex, my personal computer does not have a GPU and I did not want to use my company's cluster since it is not ethical. 
 
+### How to run?
+You can directly reach all the colab notebooks from the link below and run and train for yourself easly. If you have a problem after installing a dependency, please restart the colab notebook it will solve the problem.
 
+> - https://drive.google.com/drive/folders/1Xv8QnDoRYfql80yFHqSVjZjwz27lFvXb?usp=sharing
+
+Since github limit for a file is up to 100 mb, I have uploaded all the weights to drive. You can reach all the model weights using the link below.
+
+> - https://drive.google.com/drive/folders/1-7XP8Ll54s0bf2HOZSxV_IMMP2_ssNW6?usp=sharing
+
+You can directly install dependencies from requirements.txt
 
