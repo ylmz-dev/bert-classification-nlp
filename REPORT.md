@@ -8,6 +8,6 @@ However at least to check I have found some datasets about chemistry domain word
            0       0.47      0.46      0.47       740
            1       0.48      0.49      0.49       759
 
-    accuracy                           0.48      1499
+    accuracy        -         -        0.48      1499
    macro avg       0.48      0.48      0.48      1499
 weighted avg       0.48      0.48      0.48      1499
