@@ -58,7 +58,7 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 | 0 | 0.73  | 0.78  | 0.75  |740
 | 1 |  0.77  |  0.72 |0.76 |759
 
-![alt text](https://github.com/umitylmz/fixy/blob/master/IMG_2654.jpg)
+![alt text](https://github.com/umitylmz/dcipher-nlp-challenge/blob/master/data/roc_curve.png)
 
 ### Comparison on Test dataset
 
