@@ -61,7 +61,7 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 | SciBERT Fine-tuned |  0.736  |  0.745 |
 | BERT Fine-tuned |  0.730  |  0.723 |
 | BERT Frozen |  0.724  |  0.729 |
-| Bi-LSTM |  0.486  |  0.512 |
+| Bi-LSTM |  0.488  |  0.490 |
 
 
 ### Main Challenges and Future Work
