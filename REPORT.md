@@ -87,5 +87,5 @@ Since github limit for a file is up to 100 mb, I have uploaded all the weights t
 
 > - https://drive.google.com/drive/folders/1-7XP8Ll54s0bf2HOZSxV_IMMP2_ssNW6?usp=sharing
 
-You can directly install dependencies from requirements.txt
+If you do not prefer colab, you can directly install dependencies from requirements.txt and you will be ready.
 
