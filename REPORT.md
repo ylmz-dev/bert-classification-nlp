@@ -19,7 +19,7 @@ Secondly, I have thought that maybe using transformers can be a good solution fo
 
 In addition, I have conducted a literature search and I have seen that XLnet which is a modified version of BERT shows the new state of the art performance results for the most of the task and datasets including text classification. I have fine tuned XLNet to see can we also get better performance. I did not try to freeze its weights and add combine with some additional layers since BERT had better performance results with only fine tuning. Results were slightly better, F1 score and accuracy has increased around 2 percent.
 
-### Performance results of Fine Tuned BERT
+### Performance results of Fine Tuned XLNet
 
 | Class | Precision | Recall | F1-score  |Support
 | ------ | ------ | ------ | ------ |------ |
