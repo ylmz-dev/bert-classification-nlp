@@ -1,0 +1,7 @@
+json==2.0.9
+pandas==1.1.5
+numpy==1.19.4
+sklearn==0.22.2.post1
+transformers==4.1.1
+matplotlib==3.2.2
+torch==1.7.0+cu101
