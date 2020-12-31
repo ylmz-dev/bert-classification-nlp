@@ -59,7 +59,7 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 | 1 |  0.77  |  0.72 |0.76 |759
 
 #### ROC Curve
-<img src="https://github.com/umitylmz/dcipher-nlp-challenge/blob/master/data/roc_curve.png" alt="ROC CURVE" width="700" height="500">
+<img src="https://github.com/umitylmz/dcipher-nlp-challenge/blob/master/data/roc_curve.png" alt="ROC CURVE" width="818" height="535">
 
 ### Comparison on Test dataset
 
@@ -75,8 +75,11 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 ### Main Challenges and Future Work
 
 I am planning to use an outlier detection technique on training data such as Tomek-Links to seperate classes more. Since classes are so similar to each other, models can not learn differences well.
+
 Also, with scraping more data using different resources online about the domains and using this additional data directly or indirectly, I am planning to increase the model's performance.
+
 In addition, I would like to focus more on feature engineering, I have tried something but it did not affect the performance well however I believe that there are some ways that I could not see right now. It is not an excuse however nowadays, while I was working in a company, also I am focusing on my classes since I will be graduating from my university in one month. I believe, If I had more time I could succeed more.
+
 I would like to tune the hyper-parameters of the model using an advanced technique. My computational power was not enough since I was using a free GPU on Google Colab. Since it is free it was limiting the usage time and even though I was using 3 accounts the same, I had so many problems during the training phases. I have used Google Colab to implement models since they are very complex, my personal computer does not have a GPU and I did not want to use my company's cluster since it is not ethical. 
 
 ### Installation
