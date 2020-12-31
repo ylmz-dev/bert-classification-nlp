@@ -52,7 +52,7 @@ Finally, I have realized that our dataset is so scientific and includes so many 
 | 0 | 0.73  | 0.78  | 0.75  |740
 | 1 |  0.77  |  0.72 |0.76 |759
 
-#### Comparison on Test dataset
+### Comparison on Test dataset
 | Model/Metric | Accuracy | F1-score |
 | ------ | ------ | ------ |
 | XLNet Fine-tuned | 0.754  | 0.752  |
