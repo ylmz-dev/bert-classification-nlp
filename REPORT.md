@@ -26,7 +26,7 @@ In addition, I have conducted a literature search and I have seen that XLnet whi
 | 0 | 0.73  | 0.78  | 0.75  |740
 | 1 |  0.77  |  0.72 |0.76 |759
 
-Even though XLNet showed better performance, I was expecting better performance results because when I search online or check articles using BERT or XLNet were generally performing so good. I was thinking about the reason behind of this situation and checked every step of my implementations. I believe that if I can tune hyper-parameters deeply using techniques such as bayesian search, it could increase the performance however I could only increase the batch size up to 12 which is even not recommended by the authors because of the computational power of Google Colab platform.
+Even though XLNet showed better performance, I was expecting better performance results because when I search online or check articles using BERT or XLNet were generally performing so good. I was thinking about the reason behind of this situation and checked every step of my implementations. I believe that if I can tune hyper-parameters deeply using techniques such as bayesian search, it could increase the performance however I could only increase the batch size up to 12 which because of the computational power of Google Colab platform.
 
 Finally, I have realized that our dataset is so scientific and includes so many technical terms since they are articles. BERT and XLNet have trained on so general vocabulary so, maybe that could be the reason of bad performance results. After some research I have discovered a BERT model which is trained on papers from the corpus of semanticscholar.org. It is called as SciBERT. I have implemented it to see is there a performance difference.
 
